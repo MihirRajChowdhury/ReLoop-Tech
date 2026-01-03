@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ♻️ ReLoop - The Sustainable Tech Marketplace
 
-## Getting Started
+**ReLoop** is a modern, circular economy marketplace designed to reduce e-waste. It empowers users to buy upcycled electronics, sell old tech for parts, and track their environmental impact through a sleek, AI-enhanced platform.
 
-First, run the development server:
+![ReLoop Hero](public/hero-screenshot.png) *(Placeholder: Replace with actual screenshot)*
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Key Features
+
+- **🛍️ Component Marketplace**: Buy and sell verified upcycled electronics and harvested components.
+- **🔍 AI Component Verification**: Integrated tools to help sellers identify valid parts from broken devices.
+- **📊 Carbon Impact Tracker**: Real-time visualization of CO2 savings for every purchase and sale.
+- **⚡ Modern UI/UX**: Built with Framer Motion for smooth animations and a premium dark-mode aesthetic.
+- **📱 Responsive Design**: Fully optimized for mobile, tablet, and desktop experiences.
+
+## 🚀 Tech Stack
+
+- **Framework**: [Next.js 16 (App Router)](https://nextjs.org/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **State Management**: React Context API
+- **Database**: [MongoDB](https://www.mongodb.com/) with [Mongoose](https://mongoosejs.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Authentication**: Custom Bcrypt-based auth (in-progress)
+
+## 🛠️ Getting Started
+
+### Prerequisites
+
+- Node.js 18+ 
+- MongoDB instance (Local or Atlas)
+
+### Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/ReLoop-Tech.git
+   cd ReLoop-Tech
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Set up environment variables**:
+   Create a `.env.local` file in the root directory:
+   ```env
+   MONGODB_URI=your_mongodb_connection_string
+   ```
+
+4. **Run the development server**:
+   ```bash
+   npm run dev
+   ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📂 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```text
+├── app/              # Next.js App Router (Pages & API)
+├── components/       # Reusable UI components (shadcn/ui)
+├── context/          # Global state management
+├── lib/              # Utility functions & DB config
+├── models/           # Mongoose schemas
+├── public/           # Static assets
+└── styles/           # Global CSS & Tailwind config
+```
 
-## Learn More
+## 🤝 Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Contributions are welcome! Please feel free to submit a Pull Request.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📄 License
 
-## Deploy on Vercel
+Distributed under the MIT License. See `LICENSE` for more information.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
+Built with ❤️ by the ReLoop Team.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
