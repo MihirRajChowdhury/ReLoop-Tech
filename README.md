@@ -2,7 +2,8 @@
 
 **ReLoop** is a modern, circular economy marketplace designed to reduce e-waste. It empowers users to buy upcycled electronics, sell old tech for parts, and track their environmental impact through a sleek, AI-enhanced platform.
 
-![ReLoop Hero](public/hero-screenshot.png) *(Placeholder: Replace with actual screenshot)*
+![ReLoop Hero](<img width="1876" height="880" alt="Screenshot 2026-01-03 172124" src="https://github.com/user-attachments/assets/d2552539-41be-40f4-b565-b97b9f30a2d6" />
+) *(Placeholder: Replace with actual screenshot)*
 
 ## 🌟 Key Features
 
